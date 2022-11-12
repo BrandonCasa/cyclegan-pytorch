@@ -1,4 +1,3 @@
-
 FROM nvcr.io/nvidia/tensorrt:22.10-py3
 
 WORKDIR /app
