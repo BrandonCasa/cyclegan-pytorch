@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: nti-alias
+    ports:
+      - 3001:3000
+    volumes:
+      - .:/app
