@@ -4,9 +4,11 @@ services:
     shm_size: '6gb'
     container_name: nti-alias
     ports:
-      - 3001:3000
+      - 3002:3001
     volumes:
       - .:/app
+    command:
+      - /bin/bash -c "jupyter notebook --port 3001"
     deploy:
       resources:
         reservations:
