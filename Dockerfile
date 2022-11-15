@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/tensorrt:22.10-py3
+FROM nvcr.io/nvidia/tensorflow:22.10-tf2-py3
 
 WORKDIR /app
 
