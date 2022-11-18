@@ -1,2 +1,2 @@
 ipympl
-notebook
+jupyterlab
