@@ -2,7 +2,7 @@ services:
   app:
     build: .
     shm_size: '6gb'
-    container_name: nti-alias
+    container_name: tensorflow-custom
     ports:
       - 3002:3001
     volumes:
