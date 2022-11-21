@@ -1,8 +1,8 @@
 services:
   app:
     build: .
-    shm_size: '6gb'
-    container_name: tensorflow-custom
+    shm_size: "6gb"
+    container_name: cyclegan-pytorch
     ports:
       - 3001:3001
     volumes:

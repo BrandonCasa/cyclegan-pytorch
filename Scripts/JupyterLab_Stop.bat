@@ -1,2 +1,2 @@
-docker exec tensorflow-custom jupyter-lab stop 3001
+docker exec cyclegan-pytorch jupyter-lab stop 3001
 PAUSE
