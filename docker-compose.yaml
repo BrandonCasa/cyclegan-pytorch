@@ -5,6 +5,7 @@ services:
     container_name: cyclegan-pytorch
     ports:
       - 3001:3001
+      - 8097:8097
     volumes:
       - .:/app
     deploy:
